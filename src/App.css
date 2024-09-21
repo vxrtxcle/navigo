@@ -1,0 +1,135 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #e0f7fa, #bbdefb, #90caf9, #42a5f5);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #1e88e5;
+  color: #fff;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header nav a {
+  margin: 0 15px;
+  color: #e3f2fd;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header nav a:hover {
+  color: #90caf9;
+}
+
+main {
+  flex: 1;
+  padding: 20px 40px;
+  background: rgba(20, 125, 255, 0.8);
+  border-radius: 8px;
+  margin: 20px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home h2 {
+  color: white;
+}
+.home ul {
+  font-size: 20px;
+  margin-left: -40px;
+}
+
+.home p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.home {
+  padding-bottom: 50px;
+}
+
+.about .team-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-member {
+  background-color: #e3f2fd;
+  border: 1px solid #bbdefb;
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  color: black;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+  margin-top: 10px;
+  color: #0d47a1;
+}
+
+.team-member img {
+  border-radius: 50%;
+  border: 3px solid #90caf9;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: white;
+}
+
+.contact input, 
+.contact textarea {
+  padding: 10px;
+  border: 1px solid #90caf9;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f3f8fd;
+}
+
+.contact button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e88e5;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #1565c0;
+}
+
+.footer {
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #0d47a1;
+  color: #e3f2fd;
+}
